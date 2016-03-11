@@ -1,0 +1,55 @@
+body,div,ul,li,p,input,button{margin:0; padding:0;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+li{list-style:none;}
+.fl{float:left;}
+#nav{float:right; margin-right:50px; margin-top:25px;}
+#nav li{float:left; padding-left:20px;font-size:13px; font-weight:bold; color:#333;}
+#nav li a{font-size:13px; font-weight:bold; color:#333;}
+#nav li a:hover{color:blue;}
+#set li{float:none;}
+#set:hover ul{display:block;}
+#set{position:relative;}
+#set1{ border:1px solid #ccc; position:absolute; left:-3px; width:70px; display:none;}
+#set1 li{ width:auto; padding-left:0}
+#set1 li a{font-weight:normal; text-decoration:none; padding:0 9px; line-height:26px; height:26px; display:block;}
+#set1 a:hover{background:#09F; color:white;}
+#nav a.noB{font-weight:normal;}
+#content{text-align:center;}
+#content .inp{ text-align:left;width:537px; height:34px; display:inline-block; border:1px solid #b6b6b6; margin-right:0;}
+#content .inp1{font-size:16px; font-weight:normal;width:500px; height:22px; border:0; margin:6px 0 0 7px;}
+#content .btn1{background:#3385FF; background:#3385FF; color:white; font-size:15px; height:36px; width:100px; border:0; border-top:1px solid #3385FF }
+#login{width:398px; height:320px; border:1px solid #ccc; position:absolute; top:20%; left:40%;  background-color:#fff; display:none; } 
+#login input,#login span,#login p{display:block;}
+#login div{ width:352px;margin:55px auto;}
+#login a{font-size:12px; font-family:Arial, Helvetica, sans-serif; text-decoration:none; color:#1b66c7;}
+#close{position:absolute; top:10px; right:25px;}
+#close p{font-size:16px;}
+#login .login1{color:#666; position:absolute; top:30px; right:25px; background:url(images/QQ%E6%88%AA%E5%9B%BE20160310192956.png) no-repeat left center; display:block; width:90px; text-align:right;}
+#login input{width:348px; height:40px; border:1px solid #ccc;}
+#person{background:url(images/QQ%E6%88%AA%E5%9B%BE20160310180935.png) no-repeat 3% center; text-indent:3em; margin-bottom:15px;}
+#key{background:url(images/QQ%E6%88%AA%E5%9B%BE20160310181011.png) no-repeat 3% center; text-indent:3em; margin-bottom:20px;}
+
+
+#login .box{display:inline; width:auto; height:auto; vertical-align:middle; margin-right:5px;}
+
+#login .btn{margin:15px 0px; background-color:#3f89ec; font-size:16px; font-weight:bold; color:#fff; display:block;height:50px; width:350px;}
+
+#ad{margin:0 auto; text-align:center; width:50%;}
+
+.inB{display:inline-block;}
+#ad2{display:inline-block;padding-bottom:5px; width:418px;}
+#ad2 li{float:left; margin-right:20px;}
+#ad2 li a{color: #272727; font-size:12px; font-family:"微软雅黑"}
+
+#ad3{display:inline-block;}
+
+.hl{line-height:32px; font-size:12px; padding-left:10px}
+.p_r{position:absolute; right:25px;}
+
+
+.hr_130{padding-bottom:130px;}
+.hr_420{padding-bottom:420px;}
+.ml_40{margin-left:40px;}
+.fs_12{font-size:12px; text-align:left;}
+.fr{float:right;}
